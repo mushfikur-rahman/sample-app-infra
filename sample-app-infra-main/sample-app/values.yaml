@@ -1,0 +1,17 @@
+image:
+  repository: mushfikur-rahman/sample-app-infra
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 3000
+
+serviceAccount:
+  create: true
+
+ingress:
+  enabled: false  
+
+autoscaling:
+  enabled: false  
+  
